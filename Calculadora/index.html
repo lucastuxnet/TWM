@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <form name="form">
+            <input class="visor" name="visor">
+        </form>
+        <!--Criando tabela com os botões-->
+        <table>
+            <tr><!-- 1 linha da tabela -->
+                <td><input class="botao" type="button" value="c" onclick="limpar()"></td>
+                <td><input class="botao" type="button" value="<" onclick="remover()"></td>
+                <td><input class="botao" type="button" value="/" onclick="valor('/')"></td>
+                <td><input class="botao" type="button" value="x" onclick="valor('*')"></td>
+            </tr>
+            <tr><!-- 2 linha da tabela -->
+                <td><input class="botao" type="button" value="7" onclick="valor(7)"></td>
+                <td><input class="botao" type="button" value="8" onclick="valor(8)"></td>
+                <td><input class="botao" type="button" value="9" onclick="valor(9)"></td>
+                <td><input class="botao" type="button" value="-" onclick="valor('-')"></td>
+            </tr>
+            <tr><!-- 3 linha da tabela -->
+                <td><input class="botao" type="button" value="4" onclick="valor(4)"></td>
+                <td><input class="botao" type="button" value="5" onclick="valor(5)"></td>
+                <td><input class="botao" type="button" value="6" onclick="valor(6)"></td>
+                <td><input class="botao" type="button" value="+" onclick="valor('+')"></td>
+            </tr>
+            <tr><!-- 4 linha da tabela -->
+                <td><input class="botao" type="button" value="1" onclick="valor(1)"></td>
+                <td><input class="botao" type="button" value="2" onclick="valor(2)"></td>
+                <td><input class="botao" type="button" value="3" onclick="valor(3)"></td>
+                <td rowspan=5><input class="botao" type="button" style="height: 100px;" value="=" onclick="resultado()"></td>
+            </tr>
+            <tr><!-- 5 linha da tabela -->
+                <td colspan="2"><input class="botao" type="button" style="width: 100px;" value="0" onclick="valor(0)"></td>
+                <td><input class="botao" type="button" value="." onclick="valor('.')"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
