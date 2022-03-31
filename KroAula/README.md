@@ -1,6 +1,4 @@
-<h1 align="center">
-    <img alt="KroAula" height="100px" />    
-</h1>
+###### KroAula
 
 <p align="center">
   <a href="#bookmark-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
