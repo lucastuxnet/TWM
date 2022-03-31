@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="KroAula" src=".github/logo.svg" height="100px" />    
+    <img alt="KroAula" height="100px" />    
 </h1>
 
 <p align="center">
