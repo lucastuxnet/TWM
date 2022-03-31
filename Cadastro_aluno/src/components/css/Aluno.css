@@ -1,0 +1,130 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.ContainerCadastro {  
+  padding: 10px;
+  margin-top: 70px;  
+}
+
+/* Nome do aluno */
+
+.container .txtNomeAluno{
+  /* height: 40px;  */
+  /* margin: 3px 0; */
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;      
+  display: flex;
+}
+
+.container .txtEmail{        
+  /* height: 40px;  */
+  /* margin: 3px 0; */
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;      
+}
+
+
+.container .txtCPF{
+  /* height: 40px;  */
+  /* margin: 3px 0; */
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;      
+}
+
+
+/* CEP do endereço do aluno */
+
+.container .txtCEP{
+  /* height: 40px;  */
+  /* margin: 3px 0; */
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;      
+}
+
+.container .txtNum{
+  /* height: 40px;  */
+  /* margin: 3px 0; */
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;      
+}
+
+/* Endereço do aluno */
+
+.container .txtEndereco{
+  /* height: 40px;  */
+  /* margin: 3px 0; */
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;      
+}
+
+.container .txtBairro{
+  /* height: 40px;  */
+  /* margin: 3px 0; */
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;      
+}
+
+.container .txtCidade{
+  /* height: 40px;  */
+  /* margin: 3px 0; */
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;      
+}
+
+.container .txtTEL{
+  /* height: 40px;  */
+  /* margin: 3px 0; */
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;      
+}
+
+.container .txtCEL{
+  /* height: 40px;  */
+  /* margin: 3px 0; */
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;      
+}
+
+.container .txtMat{
+  /* height: 40px;  */
+  /* margin: 3px 0; */
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;      
+}
+
+.container .txtRefresi{
+  /* height: 40px;  */
+  /* margin: 3px 0; */
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;      
+}
+
+.container .comboSexo{
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;
+}
+
+.container .comboRef{
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;
+}
+
+.container .comboUF{
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px;
+}
