@@ -1,17 +1,10 @@
 ###### KroAula
 
-<p align="center">
-  <a href="#bookmark-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#exec-como-executar">Como Executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-</p>
-
-## :bookmark: Sobre
-
 Aplicação Web desenvolvida para a disciplina de TWM-UFU-2021-2. A ideia e uma plataforma para professores marcarem aulas/horarios/preço e os alunos buscarem aulas nos horarios que lhe cabem
 melhor, também sendo relativo a opção de preço. Após a escolha da aula o aluno e direcionado para um contato via Whattsapp.
 
 
-## :exec: Como Executar
+##  Como Executar
 
 - ### **Pré-requisitos**
 
