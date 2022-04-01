@@ -16,7 +16,8 @@ melhor, também sendo relativo a opção de preço. Após a escolha da aula o al
 1. Faça um clone do repositório:
 
 ```sh
-  $ git clone https://github.com/lucastuxnet/TWM/KroAula.git
+  $ git clone https://github.com/lucastuxnet/TWM.git
+  $ cd KroAula
 ```
 
 2. Executando a Aplicação:
