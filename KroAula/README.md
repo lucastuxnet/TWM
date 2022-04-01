@@ -17,7 +17,7 @@ melhor, também sendo relativo a opção de preço. Após a escolha da aula o al
 
 ```sh
   $ git clone https://github.com/lucastuxnet/TWM.git
-  $ cd KroAula
+  $ cd TWM/KroAula/
 ```
 
 2. Executando a Aplicação:
