@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Carregando dados...</title>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.0.0/dist/css/materialize.min.css">
+    <!--Just for styles-->
+    <script type="text/javascript" src="scripts.js"></script>
+
+</head>
+
+<body>
+    <div class="container"><br>
+        <h3>
+            Usuários na base de dados
+        </h3>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <td>
+                        <b>Nome</b>
+                    </td>
+                    <td>
+                        <b>Sobrenome</b>
+                    </td>
+                </tr>
+            </thead>
+            <tr id='dados'></tr>
+            <script>carrega_dados()</script>
+        </table>
+    </div>
+    <br>
+</body>
+
+</html>
