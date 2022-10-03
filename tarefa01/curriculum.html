@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucas Martins | Curriculum Vitae</title>
+  <link href="https://fonts.googleapis.com/css?family=KoHo|Cormorant:400,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Menu Introdução -->
+  <header id="descricao">    
+    <nav>
+      <a href="#descricao">Lucas</a>
+      <a href="#dados">Dados Pessoais</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#formacao">Formação</a>
+      <a href="#contato">Contato</a>      
+    </nav>
+    <div class="content-wrap">
+      <div class="col-wide">
+        <h1>Lucas Martins</h1>
+        <h2>DevOps</h2>
+        <p>Experiência com gestão de projetos(Scrum), infraestrutura e redes de ambientes Linux/Windows, desenvolvimento de softwares(Python,C,C#), Iot e Cybersegurança.</p>
+      </div>
+    </div>
+    <style>
+        /* Padronizações de estilos globais */
+        /* Aplicar um modelo de layout de caixa natural a todos os elementos,
+            mas permitindo que os componentes mudem */
+        html {
+        box-sizing: border-box;
+        }
+        *, *:before, *:after {
+        box-sizing: inherit;
+        }
+        body {
+        font-family: 'KoHo', sans-serif;
+        margin: 0;
+        }
+        h1, h2 {
+        font-family: 'Cormorant', serif;
+        font-weight: 400;
+        }
+        h1 {
+        font-size: 60px;
+        }
+        h2 {
+        font-size: 40px;
+        margin-top: 0;
+        }
+        h3 {
+        margin: 0;
+        }
+        a {
+        color: #070707;
+        }
+        a:hover {
+        text-decoration: none;
+        }
+
+        .content-wrap {
+        max-width: 950px;
+        margin: 0 auto;
+        padding: 50px 50px;
+        overflow: hidden;
+        }
+        .hide {
+        display: none;
+        }
+        .uppercase {
+        text-transform: uppercase;
+        }
+
+        /* Cabeçalho e Rodapé */
+        header, footer {
+        background: #050505;
+        color: #dddddd;
+        }
+        /* header */
+        header {
+        padding-top: 50px;
+        position: relative;
+        }
+        header h1, header h2 {
+        color: #EDF2F4;
+        margin: 0;
+        }
+        .profile-img {
+        border-radius: 50%;
+        }
+
+        .content-wrap img {
+        width: 200px;
+        height: 200px;
+        }
+
+        /* Rodapé */
+        footer {
+        text-align: center;
+        }
+        .contato a {
+        color: #ffffff;
+        padding: 10px;
+        display: inline-block;
+        }
+
+        /* Navegação */
+        nav {
+        text-align: center;
+        background: white;
+        position: fixed;
+        top: 0;
+        width: 100%;  
+        }
+        nav a {
+        display: inline-block;
+        padding: 15px 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        }
+
+        /* Experiencia de trabalho */
+        .experiencia {
+        background: #ffffff;
+        }
+        h3 ~ p {
+        margin: 0;
+        }
+        .descricao-empresa {
+        margin-bottom: 25px;
+        }
+        .descricao-empresa p:first-of-type {
+        margin-top: 0;
+        }
+
+        /* Dados Pessoais */
+        .dados {
+        background: #ffffff;
+        }
+        h3 ~ p {
+        margin: 0;
+        }
+        .dados-pessoais {
+        margin-bottom: 25px;
+        }
+        .dados-pessoais p:first-of-type {
+        margin-top: 0;
+        }
+
+        .dados .content-wrap{
+        padding: 0;
+        }
+
+
+        /* Formação */
+        .formacao {
+        background: linear-gradient(rgba(109, 124, 123, 0.8), rgba(118, 160, 160, 0.5));
+        background-size: cover;
+        }
+        p + h3 {
+        margin-top: 30px;
+        }
+
+        /* Mídias*/
+        @media (min-width: 900px) {
+        .col-narrow {
+            width: 30%;
+            float: left;    
+        }
+        .col-wide {
+            width: 70%;
+            float: left;
+            padding-left: 20px;
+        }
+        }
+        @media (max-width: 899px){
+        header {
+            text-align: center;
+        }
+        .profile-img {
+            width: 200px;
+        }
+        }
+    </style>
+  </header>
+
+  <main>    
+    <!-- Experiencia profissional -->
+    <section id="experiencia" class="experiencia">
+      <div class="content-wrap">
+        <h2>Experiência Profissional</h2>
+        <!-- Empresa 1 -->
+        <div class="col-narrow">
+          <h3>Goldhost</h3>
+          <p class="uppercase">Suporte</p>
+        </div>
+
+        <div class="col-wide descricao-empresa">          
+          <p>Suporte geral Linux/Windows:</p>
+          <ul>
+            <li>Configuração de planos de hospedagem(Dominio/DNS/CPANEL)</li>
+            <li>Configuração de servidor Unix/Windows</li>
+            <li>Configurações de Iptables e firewalls</li>
+          </ul>          
+        </div>
+        <!-- Empresa 2 -->
+        <div class="col-narrow">
+          <h3>Ferdan</h3>
+          <p class="uppercase">Infraestrutura</p>
+        </div>
+
+        <div class="col-wide descricao-empresa">          
+          <p>Infraestrutura:</p>
+          <ul>
+            <li>Montagem e manutenção de microcomputadores</li>
+            <li>Instalação e configuração de ambientes Unix/Windows</li>
+            <li>Cabeamento e formatação de redes de computadores</li>
+          </ul>          
+        </div>
+        <!-- Empresa 3 -->
+        <div class="col-narrow">
+          <h3>Eventaria</h3>
+          <p class="uppercase">Infraestrutura</p>
+        </div>
+
+        <div class="col-wide descricao-empresa">          
+          <p>Infraestrutura:</p>
+          <ul>
+            <li>Montagem de ambientes sociais</li>
+            <li>Contratação e gestão de equipes de apoio</li>
+            <li>Logistica de distribuição</li>
+          </ul>          
+        </div>        
+      </div>
+    </section>
+
+    <!-- Dados Pessoais -->
+    <section id="dados" class="dados">
+        <div class="content-wrap">
+            <h2>Dados Pessoais</h2>
+              <div class="col-narrow">
+                <h3>Nome</h3>
+              </div>
+              <div class="col-wide dados-pessoais">
+                <p>Lucas Albino Martins</p>
+              </div>
+              <div class="col-narrow">
+                <h3>Idade</h3>
+              </div>
+              <div class="col-wide dados-pessoais">
+                <p>27 anos</p>
+              </div>
+              <div class="col-narrow">
+                <h3>Sexo</h3>
+              </div>
+              <div class="col-wide dados-pessoais">
+                <p>Masculino</p>
+              </div>
+              <div class="col-narrow">
+                <h3>Endereço e Telefone</h3>
+              </div>
+              <div class="col-wide dados-pessoais">
+                <p>Rua, Sem endereço ,Sem bairro Uberlândia-MG</p>
+                <p>(34) 996942659)</p>
+              </div>
+        </div>
+    </section>
+
+    <!-- Formação -->
+    <section id="formacao" class="formacao">
+      <div class="content-wrap">
+        <h2>Formação</h2>
+        <h3>Universidade Federal de Uberlândia</h3>
+        <p>Engenharia da Computção</p>
+        <p>2017-2022</p>
+
+        <h3>Ensino Médio</h3>        
+        <p>2008-2010</p>
+
+        <h3>Idiomas</h3>
+        <p>Português: Leitura/Escrita/Conversação</p>
+        <p>Inglês: Leitura/Escrita/Conversação</p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé e informações de contato -->
+  <footer id="contato">
+    <div class="content-wrap">
+      <h2>Quer manter contato?</h2>
+      <!-- Contato e Midias sociais. -->
+      <div class="contato">
+        <a href="mailto:lucas.martins@ufu.br">lucas.martins@ufu.br</a>
+        <a href="https://www.linkedin.com/in/lucas-martins-9272492a">LinkedIn</a>
+        <a href="https://github.com/lucastuxnet">Github</a>      
+      </div>
+      <p> &copy Copyright 2021 by Martins A. L</p>
+    </div>
+  </footer>
+</body>
+</html>
